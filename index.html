@@ -636,16 +636,18 @@
     position:relative;
     overflow:hidden;
   }
-  .about-photo .initials{
-    font-family:var(--font-display); font-weight:700; font-size:96px;
-    background:linear-gradient(160deg, var(--gold-light), var(--gold-dim));
-    -webkit-background-clip:text; background-clip:text; color:transparent;
-    opacity:0.9;
+  .about-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center top;
+    display:block;
   }
   .about-photo::after{
     content:'';
     position:absolute; inset:0;
     background:radial-gradient(circle at 30% 20%, rgba(242,183,5,0.12), transparent 60%);
+    pointer-events:none;
   }
   .about-copy .eyebrow{margin-bottom:14px;}
   .about-copy h2{font-size:clamp(26px,3vw,36px); margin-bottom:20px;}
@@ -958,314 +960,10 @@
         <div class="service-card reveal">
           <div class="service-num">03</div>
           <h3>GEO — Generative Engine Optimization</h3>
-          <p>The new frontier: building the digital footprint that gets AI platforms to recommend your brand. Structured data, authoritative citations, and content architecture LLMs recognize as reliable.</p>
-          <div class="service-tags"><span>LLM Citation Strategy</span><span>ChatGPT · Perplexity · Gemini</span></div>
+          <p>The new frontier: building the digital footprint that gets AI platforms to recommend your brand. Structured data, authoritative citations, and conversational query coverage.</p>
+          <div class="service-tags"><span>LLM Citations</span><span>Entity SEO</span><span>Schema Markup</span></div>
         </div>
 
-        <div class="service-card reveal">
-          <div class="service-num">04</div>
-          <h3>AEO & Google AI Overview</h3>
-          <p>Content engineered to win featured snippets, Google's AI Overview, and voice-search answers — the placements that get read and cited before anything else on the page.</p>
-          <div class="service-tags"><span>Featured Snippets</span><span>AI Overview</span><span>SGE Optimization</span></div>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="service-num">05</div>
-          <h3>AI Search & LLM Visibility</h3>
-          <p>Ongoing tracking of how ChatGPT, Claude, Perplexity, and Gemini describe and cite your brand — with a roadmap to close every visibility gap we find.</p>
-          <div class="service-tags"><span>AI Visibility</span><span>Model Testing</span><span>Prompt Mapping</span></div>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="service-num">06</div>
-          <h3>Brand Reputation & Social Media</h3>
-          <p>For clients who want full-spectrum visibility. I build and manage brand presence across social platforms consistently and strategically — reinforcing the same authority signal everywhere.</p>
-          <div class="service-tags"><span>Strategy</span><span>Content Calendar</span><span>Growth</span></div>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="service-num">07</div>
-          <h3>Research-Based Content & Keywords</h3>
-          <p>Every keyword list and content brief starts with real research — competitor teardowns, keyword clustering, and intent mapping using Ahrefs, SEMrush, Surfer SEO, and Google Search Console.</p>
-          <div class="service-tags"><span>Keyword Research</span><span>Competitor Analysis</span><span>Content Briefs</span></div>
-        </div>
-
-      </div>
-
-      <div class="pricing-note reveal">
-        <div class="pricing-note-head">
-          <span class="eyebrow" style="margin-bottom:0;">Which Service Is Right For You</span>
-        </div>
-        <div class="pricing-tiers">
-          <div class="pricing-tier">
-            <div class="tier-name">Tight Budget</div>
-            <p>Content strategy + topical authority building, billed hourly. The highest ROI per dollar for brands just getting started.</p>
-          </div>
-          <div class="pricing-tier">
-            <div class="tier-name">Growth Budget</div>
-            <p>Everything above, plus manual link building layered on top — this is what accelerates rankings significantly.</p>
-          </div>
-          <div class="pricing-tier">
-            <div class="tier-name">Full-Service Budget</div>
-            <p>GEO + brand reputation + social management — complete AI and search dominance across every surface that matters.</p>
-          </div>
-        </div>
-        <p class="pricing-honest">Every engagement is strategized around your budget. Pricing is custom-based on your niche, competition, and target platforms — I'll always be honest with you about what's realistic at each level.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section id="process" class="process">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="eyebrow">How We Work</div>
-        <h2>A six-stage system, run every time.</h2>
-        <p>No two brands get the same document copy-pasted. The process is fixed; what we find and build inside it isn't.</p>
-      </div>
-      <div class="process-list">
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 01</div>
-          <div>
-            <h3>Audit</h3>
-            <p>We pull apart your current technical SEO, content, backlink profile, and existing AI-search visibility to find exactly what's costing you rankings and citations today.</p>
-          </div>
-        </div>
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 02</div>
-          <div>
-            <h3>Research</h3>
-            <p>Deep keyword, competitor, and intent research across both traditional search and the prompts people are actually typing into AI tools in your niche.</p>
-          </div>
-        </div>
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 03</div>
-          <div>
-            <h3>Optimize</h3>
-            <p>Technical fixes, on-page restructuring, schema, and site architecture changes that make your site easy for both crawlers and language models to understand.</p>
-          </div>
-        </div>
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 04</div>
-          <div>
-            <h3>Create</h3>
-            <p>Research-backed articles, landing pages, social content, and video built to rank, convert, and be quotable enough for an AI engine to cite directly.</p>
-          </div>
-        </div>
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 05</div>
-          <div>
-            <h3>Amplify</h3>
-            <p>Authority building through link outreach, digital PR, and social distribution that signals trust to Google and to the models trained on the open web.</p>
-          </div>
-        </div>
-        <div class="process-item reveal">
-          <div class="process-step">STAGE 06</div>
-          <div>
-            <h3>Track & Scale</h3>
-            <p>Monthly reporting across rankings, traffic, and AI-citation visibility — then we double down on what's working and cut what isn't.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RADAR / SIGNATURE -->
-  <section class="radar-section">
-    <div class="wrap">
-      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-        <div class="eyebrow">Visibility Map</div>
-        <h2>One brand, mapped across every engine that matters.</h2>
-      </div>
-      <div class="radar-wrap reveal" id="radarWrap">
-        <div class="radar-ring" style="width:100%; height:100%;"></div>
-        <div class="radar-ring" style="width:70%; height:70%;"></div>
-        <div class="radar-ring" style="width:40%; height:40%;"></div>
-        <div class="radar-core"><img src="./logo.png" alt="fisxeo" /></div>
-        <div id="radarNodes"></div>
-      </div>
-      <p class="radar-caption">Every service we run maps back to one of these six surfaces — the places your future customers are actually asking questions.</p>
-    </div>
-  </section>
-
-  <!-- PORTFOLIO -->
-  <section id="work">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="eyebrow">Real, Verified Work</div>
-        <h2>Results pulled straight from Search Console.</h2>
-        <p>No mockups, no estimates — these are actual client engagements with real traffic, ranking, and citation data.</p>
-      </div>
-      <div class="portfolio-grid">
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">Fast Food · New Domain</span>
-            <h3>Rank #1 without a single backlink</h3>
-          </div>
-          <p>Launched a brand-new fast-food menu site with zero backlink budget. Built a "Topical Authority" framework around high-intent queries — prices, deals, calories — instead of link building.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">0→18.5K</div><div class="lbl">Daily Impressions in 90 Days</div></div>
-            <div class="case-stat"><div class="num">5.7</div><div class="lbl">Avg. Position, Top Keywords</div></div>
-          </div>
-        </div>
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">SaaS Tool · AI OCR</span>
-            <h3>250% traffic growth in 180 days</h3>
-          </div>
-          <p>Worked with an Image-to-Text AI OCR tool, optimizing two high-potential pages with strong on-page SEO and consistent, keyword-rich blogs to build E-E-A-T signals.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">413→1,447</div><div class="lbl">Clicks / Day</div></div>
-            <div class="case-stat"><div class="num">5.73M</div><div class="lbl">Total Impressions</div></div>
-          </div>
-        </div>
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">Food Blog · GEO</span>
-            <h3>Ranked inside Google's AI Overview</h3>
-          </div>
-          <p>Built a semantic topical map across a chicken-recipe content cluster — no backlinks involved. The result: multiple keywords surfacing directly inside Google's AI Overview.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">AI Overview</div><div class="lbl">Multiple Keywords Cited</div></div>
-            <div class="case-stat"><div class="num">100%</div><div class="lbl">Organic, No Paid Ads</div></div>
-          </div>
-        </div>
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">Off-Page SEO</span>
-            <h3>180% Domain Rating growth</h3>
-          </div>
-          <p>Seven months of manual guest-post outreach and niche edits on DR30–DR90 sites — white-hat only, every placement editorial and permanent, tracked in a live shared sheet.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">+180%</div><div class="lbl">Domain Rating, 7 Months</div></div>
-            <div class="case-stat"><div class="num">DR50–90</div><div class="lbl">Placement Quality</div></div>
-          </div>
-        </div>
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">SaaS · Technical SEO</span>
-            <h3>Technical & on-page SEO for SaaS</h3>
-          </div>
-          <p>Full technical and on-page audit for a word-processing SaaS tool — fixing crawl issues, restructuring content, and rebuilding organic footing from a low traffic baseline.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">13.6K</div><div class="lbl">Organic Traffic</div></div>
-            <div class="case-stat"><div class="num">$1.3K</div><div class="lbl">Est. Traffic Value</div></div>
-          </div>
-        </div>
-
-        <div class="case-card reveal">
-          <div class="case-top">
-            <span class="case-tag">Link Building</span>
-            <h3>White-hat backlinks for a social growth site</h3>
-          </div>
-          <p>Ran a full white-hat backlink strategy for an Instagram-follower-growth website — manual outreach only, focused on relevant, contextual, high-authority placements.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">100%</div><div class="lbl">White-Hat Placements</div></div>
-            <div class="case-stat"><div class="num">Manual</div><div class="lbl">Outreach Only</div></div>
-          </div>
-        </div>
-
-      </div>
-      <p class="portfolio-note">Verified project data from Search Console and live client dashboards — view the full breakdown on <a href="https://www.upwork.com/freelancers/abdulrafayq" target="_blank" rel="noopener">Upwork</a>.</p>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section class="testimonials">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="eyebrow">Client Reviews</div>
-        <h2>What it's like to work with fisxeo.</h2>
-      </div>
-      <div class="testi-grid">
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"We'd worked with two other SEO agencies before fisxeo and neither of them ever mentioned AI search. Within a quarter we were showing up inside ChatGPT answers for our category — that's traffic we simply weren't getting before."</p>
-          <div class="testi-person">
-            <div class="avatar">SH</div>
-            <div><div class="name">Sara Haider</div><div class="role">Founder, glow-and-co skincare</div></div>
-          </div>
-        </div>
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"Rafay's team actually explained why each recommendation mattered instead of just handing over a report. Our organic leads more than doubled and our team finally understands our own SEO strategy."</p>
-          <div class="testi-person">
-            <div class="avatar">DM</div>
-            <div><div class="name">David Mensah</div><div class="role">Marketing Director, Northline Legal Group</div></div>
-          </div>
-        </div>
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"I run a small coaching business and always assumed GEO was something only big brands could afford. fisxeo scoped it to my budget and I'm now getting mentioned in AI recommendations I never even knew to ask for."</p>
-          <div class="testi-person">
-            <div class="avatar">JT</div>
-            <div><div class="name">Jordan Ellis</div><div class="role">Owner, Ellis Strength Coaching</div></div>
-          </div>
-        </div>
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"The keyword research alone was worth the engagement — genuinely research-based, not templated. Content started ranking within weeks, not months, and it kept climbing."</p>
-          <div class="testi-person">
-            <div class="avatar">PN</div>
-            <div><div class="name">Priya Nair</div><div class="role">Head of Growth, Cloudvoice SaaS</div></div>
-          </div>
-        </div>
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"Communication was clear from day one, timelines were realistic, and the monthly reports actually told us something useful instead of vanity charts. Exactly what a growing brand needs."</p>
-          <div class="testi-person">
-            <div class="avatar">AK</div>
-            <div><div class="name">Ahmed Karim</div><div class="role">CEO, Ridge Property Group</div></div>
-          </div>
-        </div>
-
-        <div class="testi-card reveal">
-          <div class="stars">★★★★★</div>
-          <p>"We came in wanting more YouTube views and left with a full search strategy we didn't know we needed. Video SEO plus the blog content compounded faster than either would have alone."</p>
-          <div class="testi-person">
-            <div class="avatar">LC</div>
-            <div><div class="name">Lena Cortez</div><div class="role">Content Lead, Pathwise Fintech</div></div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY -->
-  <section class="why">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="eyebrow">Why fisxeo</div>
-        <h2>Built for where search is headed, not where it was.</h2>
-      </div>
-      <div class="why-grid">
-        <div class="why-card reveal">
-          <div class="why-icon">01</div>
-          <div><h3>AI-first from day one</h3><p>We didn't add "GEO" to an old SEO deck. Every strategy is built assuming your customers are asking AI models questions, not just typing into Google.</p></div>
-        </div>
-        <div class="why-card reveal">
-          <div class="why-icon">02</div>
-          <div><h3>Research over templates</h3><p>Every keyword list, content brief, and competitor teardown starts from real research specific to your brand — never a recycled framework.</p></div>
-        </div>
-        <div class="why-card reveal">
-          <div class="why-icon">03</div>
-          <div><h3>Transparent reporting</h3><p>You see rankings, traffic, and AI-citation visibility every month — in plain language, not a dashboard nobody has time to interpret.</p></div>
-        </div>
-        <div class="why-card reveal">
-          <div class="why-icon">04</div>
-          <div><h3>One team, full funnel</h3><p>SEO, content, social, and video all run from the same strategy — so nothing pulls in a different direction than your search goals.</p></div>
-        </div>
       </div>
     </div>
   </section>
@@ -1274,91 +972,23 @@
   <section id="about" class="about">
     <div class="wrap about-grid">
       <div class="about-photo reveal">
-        <span class="initials">RQ</span>
+        <img 
+          src="./Rafay For fixseo.jpeg" 
+          alt="Rafay Qaiser — Founder of fisxeo" 
+          width="400" 
+          height="500" 
+          loading="eager"
+        />
       </div>
       <div class="about-copy reveal">
-        <div class="eyebrow">Founder</div>
-        <h2>Rafay Qaiser — built fisxeo from the ground up.</h2>
-        <p>I started in SEO the way most people don't: building my own website, writing my own blog content, and learning keyword research by testing it on something I owned. That hands-on start turned into an internship at Neuraxek, a software house in Faisalabad, where I went deep into off-page SEO and link building.</p>
-        <p>I'm now an SEO Manager at Neuraxek with 3+ years of hands-on off-page SEO experience, managing link and search campaigns across multiple clients at once. Somewhere along the way I became fascinated by a bigger shift: search isn't just Google anymore. ChatGPT, Claude, Gemini, and Perplexity are changing how people actually discover information — and most brands have no strategy for it at all.</p>
-        <p>I've already proven the model works without shortcuts: a food blog I built ranks across multiple keywords inside Google's AI Overview — through a semantic topical map, not a single backlink. fisxeo is where that approach becomes a full-spectrum offering, applied directly to client brands who want to be found wherever search happens next.</p>
+        <div class="eyebrow">Founder & Lead Strategist</div>
+        <h2>Hi, I'm Rafay Qaiser.</h2>
+        <p>I started fisxeo because traditional SEO agencies were selling yesterday's playbook while search was undergoing its biggest shift in two decades.</p>
+        <p>With hands-on experience scaling niche web assets from zero to tens of thousands of daily impressions, I run fisxeo as a lean, execution-focused consultancy. When you work with us, you work directly with the person building and executing your strategy.</p>
         <div class="about-meta">
-          <span>Faisalabad, Pakistan</span>
-          <span>SEO Manager @ Neuraxek</span>
-          <span>Software Engineering, VU Pakistan</span>
-          <span>0–4hr Avg. Response</span>
-          <span>30+ hrs/week Available</span>
-        </div>
-        <div class="about-tools">
-          <span class="about-tools-label">Tools</span>
-          <span>Ahrefs</span><span>SEMrush</span><span>Surfer SEO</span><span>Google Search Console</span><span>Screaming Frog</span>
-        </div>
-        <div class="about-links">
-          <a href="https://www.linkedin.com/in/abdul-rafay-qaiser" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn Profile</a>
-          <a href="https://www.upwork.com/freelancers/abdulrafayq" target="_blank" rel="noopener" class="btn btn-ghost">Upwork Profile</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATS -->
-  <section class="stats-strip">
-    <div class="wrap stats-grid">
-      <div class="stat-block reveal"><div class="num">18.5K</div><div class="lbl">Daily Impressions Built From Zero</div></div>
-      <div class="stat-block reveal"><div class="num">250%</div><div class="lbl">Client Traffic Growth in 180 Days</div></div>
-      <div class="stat-block reveal"><div class="num">180%</div><div class="lbl">Domain Rating Growth in 7 Months</div></div>
-      <div class="stat-block reveal"><div class="num">3+ yrs</div><div class="lbl">Hands-On Off-Page SEO Experience</div></div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq">
-    <div class="wrap">
-      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-        <div class="eyebrow">FAQ</div>
-        <h2>Questions we get before someone signs on.</h2>
-      </div>
-      <div class="faq-list">
-
-        <div class="faq-item reveal">
-          <button class="faq-q">What actually is GEO and AEO?<span class="icon">+</span></button>
-          <div class="faq-a"><p>GEO (Generative Engine Optimization) is the practice of structuring your content so AI models like ChatGPT and Gemini can find, understand, and cite it when someone asks a related question. AEO (Answer Engine Optimization) is closely related — it's optimizing specifically to win the direct-answer placements search engines show, like featured snippets and AI Overviews.</p></div>
-        </div>
-
-        <div class="faq-item reveal">
-          <button class="faq-q">How long until we see results?<span class="icon">+</span></button>
-          <div class="faq-a"><p>Technical fixes and early AEO wins can show up within a few weeks. Meaningful ranking and AI-citation growth typically builds over 3–6 months, since both search engines and language models need time to re-crawl and re-trust updated content.</p></div>
-        </div>
-
-        <div class="faq-item reveal">
-          <button class="faq-q">Do you work with small or early-stage businesses?<span class="icon">+</span></button>
-          <div class="faq-a"><p>Yes — engagements are scoped to where you are, whether that's a brand-new site with zero rankings or an established business trying to catch up on AI search specifically.</p></div>
-        </div>
-
-        <div class="faq-item reveal">
-          <button class="faq-q">Which platforms do you actually optimize for?<span class="icon">+</span></button>
-          <div class="faq-a"><p>Google, Bing, ChatGPT, Gemini, Perplexity, and YouTube, at minimum — plus whichever social platforms make sense for your audience. The goal is coverage across everywhere your customers are actually searching or asking.</p></div>
-        </div>
-
-        <div class="faq-item reveal">
-          <button class="faq-q">How is fisxeo different from a typical SEO agency?<span class="icon">+</span></button>
-          <div class="faq-a"><p>Most agencies are still running a 2018 playbook. fisxeo treats AI search as core to the strategy, not an add-on — every piece of content and every technical change is built to perform in both traditional rankings and AI-generated answers.</p></div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- FINAL CTA -->
-  <section id="contact" class="cta-final">
-    <div class="wrap">
-      <div class="cta-panel reveal">
-        <h2>Ready to be the answer, not just a result?</h2>
-        <p>Send a note or connect on LinkedIn — every audit request gets a real, personal look before anything is proposed.</p>
-        <div class="contact-row">
-          <a href="mailto:rafayqaiser599@gmail.com" class="contact-chip">✉ rafayqaiser599@gmail.com</a>
-          <a href="https://www.linkedin.com/in/abdul-rafay-qaiser" target="_blank" rel="noopener" class="contact-chip">in LinkedIn — Rafay Qaiser</a>
-          <a href="https://www.upwork.com/freelancers/abdulrafayq" target="_blank" rel="noopener" class="contact-chip">↗ Upwork Profile</a>
+          <span>Based in Pakistan</span>
+          <span>SEO & GEO Specialist</span>
+          <span>Web Developer</span>
         </div>
       </div>
     </div>
@@ -1368,135 +998,50 @@
 
 <footer>
   <div class="wrap footer-grid">
-    <a href="#top" class="footer-logo">
-      <span class="logo-chip"><img src="./logo.png" alt="fisxeo" /></span>
-    </a>
+    <div class="footer-logo">
+      <span class="logo-chip"><img src="./logo.png" alt="fisxeo logo" /></span>
+    </div>
     <div class="footer-links">
       <a href="#services">Services</a>
+      <a href="#process">Process</a>
       <a href="#work">Work</a>
       <a href="#about">About</a>
       <a href="#faq">FAQ</a>
-      <a href="mailto:rafayqaiser599@gmail.com">Contact</a>
     </div>
-    <div class="footer-copy">© 2026 fisxeo. Ranking brands across search & AI.</div>
+    <div class="footer-copy">© 2026 fisxeo. All rights reserved.</div>
   </div>
 </footer>
 
 <script>
-  // Mobile menu toggle
+  // Mobile Menu Toggle
   const burgerBtn = document.getElementById('burgerBtn');
   const mobileMenu = document.getElementById('mobileMenu');
-  burgerBtn.addEventListener('click', ()=>{
-    const isOpen = mobileMenu.classList.toggle('open');
-    burgerBtn.classList.toggle('open', isOpen);
-    burgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-  });
-  mobileMenu.querySelectorAll('a').forEach(link=>{
-    link.addEventListener('click', ()=>{
-      mobileMenu.classList.remove('open');
-      burgerBtn.classList.remove('open');
-      burgerBtn.setAttribute('aria-expanded', 'false');
+  if (burgerBtn && mobileMenu) {
+    burgerBtn.addEventListener('click', () => {
+      const isOpen = burgerBtn.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+      burgerBtn.setAttribute('aria-expanded', isOpen);
     });
-  });
-
-  // Scroll reveal
-  const revealEls = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
-    });
-  }, {threshold:0.12});
-  revealEls.forEach(el=>io.observe(el));
-
-  // Hero engine bars fill on load
-  window.addEventListener('load', ()=>{
-    setTimeout(()=>{
-      document.querySelectorAll('.engine-fill').forEach(bar=>{
-        bar.style.width = bar.getAttribute('data-target') + '%';
-      });
-    }, 400);
-  });
-
-  // Typed query rotation
-  const queries = [
-    'best project management software',
-    'top skincare brand for sensitive skin',
-    'reliable family law attorney near me',
-    'best budgeting app 2026',
-    'trusted real estate agency in my city'
-  ];
-  let qi = 0;
-  const typedEl = document.getElementById('typedQuery');
-  function typeNext(){
-    qi = (qi+1) % queries.length;
-    const text = queries[qi];
-    typedEl.textContent = '';
-    let i=0;
-    const t = setInterval(()=>{
-      typedEl.textContent += text[i];
-      i++;
-      if(i>=text.length){ clearInterval(t); }
-    }, 45);
   }
-  setInterval(typeNext, 4200);
 
-  // FAQ accordion
-  document.querySelectorAll('.faq-item').forEach(item=>{
-    const q = item.querySelector('.faq-q');
-    const a = item.querySelector('.faq-a');
-    q.addEventListener('click', ()=>{
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item.open').forEach(other=>{
-        if(other!==item){ other.classList.remove('open'); other.querySelector('.faq-a').style.maxHeight = null; }
-      });
-      if(isOpen){
-        item.classList.remove('open');
-        a.style.maxHeight = null;
-      } else {
-        item.classList.add('open');
-        a.style.maxHeight = a.scrollHeight + 'px';
+  // Scroll Reveal Observer
+  const observerOptions = { threshold: 0.1 };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        
+        // Trigger progress bars inside query panel when visible
+        const fills = entry.target.querySelectorAll('.engine-fill');
+        fills.forEach(fill => {
+          const target = fill.getAttribute('data-target');
+          if (target) fill.style.width = target + '%';
+        });
       }
     });
-  });
+  }, observerOptions);
 
-  // Radar nodes — build 6 nodes around the core
-  const nodes = [
-    {label:'Google', pct:'92%'},
-    {label:'ChatGPT', pct:'78%'},
-    {label:'Gemini', pct:'71%'},
-    {label:'Perplexity', pct:'64%'},
-    {label:'YouTube', pct:'80%'},
-    {label:'Bing', pct:'58%'}
-  ];
-  const radarWrap = document.getElementById('radarWrap');
-  const nodesContainer = document.getElementById('radarNodes');
-  function layoutRadar(){
-    const size = radarWrap.offsetWidth;
-    const R = size/2 * 0.92;
-    nodesContainer.innerHTML = '';
-    nodes.forEach((n, idx)=>{
-      const angle = (Math.PI*2/nodes.length)*idx - Math.PI/2;
-      const x = size/2 + R*Math.cos(angle);
-      const y = size/2 + R*Math.sin(angle);
-
-      const line = document.createElement('div');
-      line.className = 'radar-line';
-      const len = R;
-      const deg = angle*180/Math.PI;
-      line.style.width = len + 'px';
-      line.style.transform = `rotate(${deg}deg)`;
-      nodesContainer.appendChild(line);
-
-      const node = document.createElement('div');
-      node.className = 'radar-node';
-      node.style.left = x + 'px';
-      node.style.top = y + 'px';
-      node.innerHTML = `<div class="node-dot"></div><div class="node-label">${n.label}</div><div class="node-pct">${n.pct}</div>`;
-      nodesContainer.appendChild(node);
-    });
-  }
-  window.addEventListener('load', layoutRadar);
-  window.addEventListener('resize', layoutRadar);
+  document.querySelectorAll('.reveal, .query-panel').forEach(el => observer.observe(el));
 </script>
 
 </body>
